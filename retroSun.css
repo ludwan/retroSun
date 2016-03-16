@@ -7,13 +7,7 @@ body {
 
 #sunCanvas {
 	position: absolute;
-	/*background: #F00;*/
 	height: 60%;
-
-/*	left: -moz-calc(50% - 225px);
-	left: -webkit-calc(50% - 225px);
-	left: -o-calc(50% - 225px);
-	left: calc(50% - 225px);*/
 }
 
 #floorCanvas {
