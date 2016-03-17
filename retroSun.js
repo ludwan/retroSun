@@ -81,7 +81,7 @@
 
 	function initFloor(){
 		var verticalLine = new createjs.Shape();
-
+		console.log(window.innerWidth);
 		verticalLine.graphics.setStrokeStyle(3).beginStroke(floorLineColor);
 		for(var i = 0; -3*window.innerWidth + i*300 < 4*window.innerWidth; i++){
 			verticalLine.graphics.moveTo(-3*window.innerWidth + i * 300, window.innerHeight/2);
